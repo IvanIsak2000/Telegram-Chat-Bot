@@ -1,5 +1,6 @@
 from . import *
 import ollama
+import transformers
 
 router = Router()
 
