@@ -16,3 +16,5 @@ DSN = f'postgresql+asyncpg://{POSTGRESQL_USER}:{POSTGRESQL_PASSWORD}@{POSTGRESQL
 
 
 MY_TIMEZONE = pytz.timezone(os.getenv('TIMEZONE'))
+
+DATA = ''
